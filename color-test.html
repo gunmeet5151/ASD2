@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Blindness Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tab-content active" id="color-plate-tab">
+    <h2>Color Blindness Test (Ishihara Plates)</h2>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <div class="note">Enter the number you see, or type "NA" if you can't see any number.</div>
+    <input type="text" id="userAnswer" placeholder="Your answer" />
+    <button onclick="nextPlate()">Next</button>
+    <p id="feedback"></p>
+    <p id="average-time-plate"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

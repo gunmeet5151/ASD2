@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid #ccc;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#average-time-plate {
+  margin-top: 10px;
+  font-style: italic;
+}
